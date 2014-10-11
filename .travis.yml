@@ -1,6 +1,6 @@
 language: java
 before_install:
-- openssl aes-256-cbc -K $encrypted_01a7575cd035_key -iv $encrypted_01a7575cd035_iv
+- openssl aes-256-cbc -K $encrypted_b8f97d8bbd75_key -iv $encrypted_b8f97d8bbd75_iv
   -in key.txt.enc -out key.txt -d
 - source key.txt
 - gcc --version
@@ -16,5 +16,5 @@ install:
 - sh scripts/create.sh
 env:
   global:
-  - secure: FlGfPQ2BvbB8zaHSNJ4/qI7bhef5ce3Bk6hl87psHVM/lLvqsbF6HweYFzYGLnbbjMmXMp9N+UYiiC+ZLS4NO5KIw3eWAJYwxf9IIExK+//SvGa2NAwOqM3AsWxr1t/3ryMkbtmJm+XsS/CEWaudG7x4zIUXrOicb/pw0yuW/Eo=
-  - secure: spZsyxFBfjB21IuYaqJi7y1nsW2tEoPYUKmB4FJ53l7mawre9+dfh4zAangwKstKuLRERWez8WVfYNDTdRxbbJ8gR9agHkhOUugBdtek3fXzdi4JALTtoA1azS1pQct4/dqWCRDFHZd16XlN2QCClWgOuUS/sE/tPA7Kcn4L1X8=
+  - secure: N50IDjBu6YLbJ/9XYvBF1M4fdCKmDVLHm2GLeEM5mOgUXdwvC1RPndGBByq4GT6fUHEB5gN8g5y/dbkbWgO7BISRlM178ualh+AuIHRZglNQFmip3jlTSc6bkqb3rVkx/MdKueDpBg+lmku8y+x661gWlFfxGGGPKopazX4uaaA=
+  - secure: iDUgrVU11fQZXsRao9wZ2Kgmid/o+t7p4pXWs2WFnCzs9+nSnvek7sFUHLGk4hackJhDgAZxMnA+1dfrKbnAd5/V58PpF+cJc1P1tJVsPNcFyWwG+MAF0IsC5PTZ0DuU2ah3b7K2X8xYO/6USldpeFim8jeqQDi3CBxK0VLXQl0=
