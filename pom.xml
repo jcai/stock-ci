@@ -3,7 +3,7 @@
   <groupId>com.ganshane</groupId>
   <artifactId>stock-ci</artifactId>
   <packaging>jar</packaging>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.2-SNAPSHOT</version>
   <name>Smart Stock Processor</name>
   <scm>
     <connection>scm:git:git@github.com:jcai/stock-ci.git</connection>
