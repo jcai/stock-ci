@@ -11,7 +11,7 @@ tar xfvz *.gz
 cd shakey-server*
 export BUILD_ID=`date +%Y-%m-%d`
 echo $BUILD_ID
-JAVA_OPTIONS="-Xmx1g" bin/shakey-server shakey.server.internal.StockAnalyzerApp -d ../ganshane.github.io/_posts -a yahoo
+JAVA_OPTIONS="-Xmx1g" bin/shakey-server shakey.server.internal.StockAnalyzerApp -d ../ganshane.github.io/_posts -a sina
 cd -
 
 #push post file
