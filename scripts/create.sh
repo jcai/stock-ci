@@ -6,7 +6,7 @@ git config --global user.name "Jun Tsai"
 git clone https://${CI_USER}:${CI_PASS}@github.com/ganshane/ganshane.github.io.git
 
 #process file using server gz
-wget https://github.com/ganshane/shakey/releases/download/shakey-project-1.6.7/shakey-server-1.6.7-bin.tar.gz
+wget https://github.com/ganshane/shakey/releases/download/shakey-project-1.6.8/shakey-server-1.6.8-bin.tar.gz
 tar xfvz *.gz
 cd shakey-server*
 export BUILD_ID=`date +%Y-%m-%d`
